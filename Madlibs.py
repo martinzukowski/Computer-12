@@ -39,7 +39,7 @@ elif option == "3":
     madlib3
 
 elif option == "q":
-    breakpoint
+    print("Thank you for playing.")
 
 else:
     print ("Invalid input.")
