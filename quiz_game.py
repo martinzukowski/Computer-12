@@ -47,6 +47,8 @@ def game():
         score += 1
     else:
         print('Incorrect! ')
+    image1 = Image.open('violin.jpeg')
+    image1.show('violin.jpeg')
     
     answer = input('How many strings does a violin have? ')
     if answer == '4':
@@ -54,7 +56,7 @@ def game():
         score += 1
     else:
         print('Incorrect! ')
-    
+
     answer = input('What is the chemical symbol for hydrogen? ').lower()
     if answer == 'h':
         print('Correct! ')
@@ -68,6 +70,8 @@ def game():
         score += 1
     else:
         print('Incorrect! ')
+    image2 = Image.open('porsche.jpeg')
+    image2.show('porsche.jpeg')
     
     answer = input('How many planets in the solar system? ')
     if answer == '8':
